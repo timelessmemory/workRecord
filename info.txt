@@ -1,0 +1,46 @@
+angularjs 
+php
+yii2
+sass
+coffeescript
+mongo
+nginx
+grunt
+resque
+supervisor
+requirejs
+qiniu
+yunpian
+linux
+git
+docker
+redis
+shell
+
+
+csdn
+w3cfuns
+juejin
+iteye
+bokeyuan
+
+curl https://raw.githubusercontent.com/creationix/nvm/v0.25.1/install.sh | bash
+. ~/.profile
+export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+nvm install v0.12.10
+
+
+grunt linkmodule:demo
+
+./yii management/module/install demo
+
+ufsklp website register, profile
+script: yunpian send sms
+write API for h5, app
+quncrm 
+	sms management, job, send on-time
+	westpromotionActivity, goods management
+	venueActivity, scan qrcode
+docker
+skyeye: api interface, count statistics, daily job, echart
+script: behavior analyse, view news,view recipes, mixpanel
