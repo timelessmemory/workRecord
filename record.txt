@@ -34,6 +34,15 @@ grunt linkmodule:demo
 
 ./yii management/module/install demo
 
+====
+1. 
+frontend and backend run : ./yii mudule/add modname
+
+2. 
+frontend run : grunt linkmodule, grunt build 
+backend run : ./yii management/module/install modname
+=====
+
 ufsklp website register, profile
 script: yunpian send sms
 write API for h5, app
