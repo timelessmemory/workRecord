@@ -17,31 +17,12 @@ docker
 redis
 shell
 
-
 csdn
 w3cfuns
 juejin
 iteye
 bokeyuan
-
-curl https://raw.githubusercontent.com/creationix/nvm/v0.25.1/install.sh | bash
-. ~/.profile
-export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
-nvm install v0.12.10
-
-
-grunt linkmodule:demo
-
-./yii management/module/install demo
-
-====
-1. 
-frontend and backend run : ./yii mudule/add modname
-
-2. 
-frontend run : grunt linkmodule, grunt build 
-backend run : ./yii management/module/install modname
-=====
+timelessmemoryli
 
 ufsklp website register, profile
 script: yunpian send sms
@@ -54,3 +35,35 @@ docker
 skyeye: api interface, count statistics, daily job, echart
 script: behavior analyse, view news,view recipes, mixpanel
 questionaire
+wechat qiyehao
+
+
+note:
+curl https://raw.githubusercontent.com/creationix/nvm/v0.25.1/install.sh | bash
+. ~/.profile
+export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+nvm install v0.12.10
+
+grunt linkmodule:demo
+
+./yii management/module/install demo
+
+=====
+1. 
+frontend and backend run : ./yii mudule/add modname
+package.json will add modname and git url
+
+2. 
+frontend run : grunt linkmodule, grunt build 
+backend run : ./yii management/module/install modname
+will add field in db
+=====
+
+QUEUE=global LOGGING=1 php backend/modules/resque/components/bin/resque
+QUEUE=global LOGGING=1 php backend/modules/resque/components/bin/resque-scheduler
+
+./yii management/job/create backend\\modules\\ufstrust\\job\\CheckExpiredScoreRules
+
+http://192.168.206.12/webapp/ufstrust/distributor/unimoney?channelId=588029f3be07770014b9d9ea&openId=owEa_wEGYe-L4EesQFzwIU-hmOZM&origin=wechat&debug=1&active=0
+
+12288882222
