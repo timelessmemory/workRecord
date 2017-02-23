@@ -16,6 +16,8 @@ git
 docker
 redis
 shell
+vue
+jquery-weui
 
 csdn
 w3cfuns
@@ -66,4 +68,4 @@ QUEUE=global LOGGING=1 php backend/modules/resque/components/bin/resque-schedule
 
 http://192.168.206.12/webapp/ufstrust/distributor/unimoney?channelId=588029f3be07770014b9d9ea&openId=owEa_wEGYe-L4EesQFzwIU-hmOZM&origin=wechat&debug=1&active=0
 
-12288882222
+./yii ufstrust/import-data/approve-target "585caaa358ea1940be7b2dd1" 2016 2
